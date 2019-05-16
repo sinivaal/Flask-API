@@ -1,0 +1,11 @@
+# Python cache 
+__pycache__/
+*.pyc
+*.py[cod]
+#Flask
+instance/
+.webassets-cache
+#Virtual enviroment
+env/
+#Database credentials
+app/database.ini
