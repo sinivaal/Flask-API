@@ -8,4 +8,4 @@ instance/
 #Virtual enviroment
 env/
 #Database credentials
-app/database.ini
+application/database.ini

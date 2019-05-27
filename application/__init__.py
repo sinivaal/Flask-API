@@ -1,5 +1,3 @@
 from flask import Flask
 app = Flask(__name__)
-
-
-from app import api
+from application import api

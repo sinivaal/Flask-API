@@ -2,10 +2,9 @@
 from configparser import ConfigParser
 import os
  
-def config(filename='app/database.ini', section='weights'):
+def config(filename='application/database.ini', section='weights'):
     parser = ConfigParser()
     parser.read(filename)
-    # get section, default to postgresql
     db = {}
     if parser.has_section(section):
         params = parser.items(section)
